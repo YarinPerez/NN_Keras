@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+models/*.keras
+results/*.json
+results/plots/*.png
+
+# Keep directory structure
+!models/.gitkeep
+!results/.gitkeep
+!results/plots/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
