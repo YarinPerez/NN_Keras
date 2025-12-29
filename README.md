@@ -50,6 +50,10 @@ This project teaches fundamental neural network concepts through hands-on implem
 | 1       | 0       | 1      |
 | 1       | 1       | 0      |
 
+![XOR Gate Illustration](docs/images/Xor_illustration.png)
+
+*Figure: XOR gate problem visualization - demonstrates why the XOR problem cannot be solved by a single straight line (linear classifier). Notice how no single line can separate the red points (output=1) from the blue points (output=0).*
+
 ### Linear Separability
 
 **AND Gate is Linearly Separable**
