@@ -50,10 +50,6 @@ This project teaches fundamental neural network concepts through hands-on implem
 | 1       | 0       | 1      |
 | 1       | 1       | 0      |
 
-![XOR Gate Illustration](docs/images/Xor_illustration.png)
-
-*Figure: XOR gate problem visualization - demonstrates why the XOR problem cannot be solved by a single straight line (linear classifier). Notice how no single line can separate the red points (output=1) from the blue points (output=0).*
-
 ### Linear Separability
 
 **AND Gate is Linearly Separable**
@@ -184,6 +180,10 @@ Output Layer (1 neuron, sigmoid)
 
 Total Parameters: 9 (2×2 + 2 + 2×1 + 1)
 ```
+
+![XOR Neural Network Architecture](docs/images/Xor_illustration.png)
+
+*Figure: XOR gate neural network architecture - Multi-layer perceptron with input layer (2 neurons), hidden layer (2 neurons), and output layer (1 neuron). The hidden layer enables the network to learn the non-linear XOR function.*
 
 **Why Hidden Layer is Necessary**:
 - XOR is NOT linearly separable
