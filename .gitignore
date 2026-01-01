@@ -28,7 +28,7 @@ Thumbs.db
 # Project specific
 models/*.keras
 results/*.json
-results/plots/*.png
+# results/plots/*.png
 
 # Keep directory structure
 !models/.gitkeep
